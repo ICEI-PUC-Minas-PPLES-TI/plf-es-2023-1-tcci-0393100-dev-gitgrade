@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Validate CITATION.cff
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ github.token }}
 
     steps:
       - name: Checkout
