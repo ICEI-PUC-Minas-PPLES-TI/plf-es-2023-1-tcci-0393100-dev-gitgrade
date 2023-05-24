@@ -2,7 +2,6 @@ name: JobScheduler Service Lint
 
 on:
   pull_request:
-    branches: [master]
     paths:
       - "Codigo/jobscheduler-service/**"
 
