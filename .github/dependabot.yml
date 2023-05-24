@@ -5,7 +5,7 @@ updates:
     directory: "/.github/workflows"
     schedule:
       interval: "daily"
-    assignees:
+    reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
       - "dependency"
@@ -17,7 +17,7 @@ updates:
     directory: "/Codigo/jobscheduler-service"
     schedule:
       interval: "daily"
-    assignees:
+    reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
       - "dependency"
@@ -29,7 +29,7 @@ updates:
     directory: "/Codigo/supportplataform-service"
     schedule:
       interval: "daily"
-    assignees:
+    reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
       - "dependency"
@@ -41,7 +41,7 @@ updates:
     directory: "/Codigo/jobscheduler-service"
     schedule:
       interval: "daily"
-    assignees:
+    reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
       - "dependency"
@@ -54,7 +54,7 @@ updates:
     directory: "/Codigo/supportplataform-service"
     schedule:
       interval: "daily"
-    assignees:
+    reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
       - "dependency"
