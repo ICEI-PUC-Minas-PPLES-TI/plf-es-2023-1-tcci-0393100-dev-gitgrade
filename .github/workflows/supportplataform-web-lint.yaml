@@ -1,6 +1,12 @@
 name: SupportPlatform Web Lint
 
 on:
+  push:
+    branches:
+      - "master"
+      - "feature/**"
+    paths:
+      - "Codigo/supportplatform-web/**"
   pull_request:
     paths:
       - "Codigo/supportplatform-web/**"

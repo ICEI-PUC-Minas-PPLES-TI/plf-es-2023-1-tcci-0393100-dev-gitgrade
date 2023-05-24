@@ -1,6 +1,12 @@
 name: JobScheduler Service Lint
 
 on:
+  push:
+    branches:
+      - "master"
+      - "feature/**"
+    paths:
+      - "Codigo/jobscheduler-service/**"
   pull_request:
     paths:
       - "Codigo/jobscheduler-service/**"
