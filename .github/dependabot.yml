@@ -1,0 +1,63 @@
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/.github/workflows"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "ICEI-PUC-Minas-PPLES-TI/teams/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "devops"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/Codigo/jobscheduler-service"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "ICEI-PUC-Minas-PPLES-TI/teams/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "backend"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/Codigo/supportplataform-service"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "ICEI-PUC-Minas-PPLES-TI/teams/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "backend"
+
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/Codigo/jobscheduler-service"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "ICEI-PUC-Minas-PPLES-TI/teams/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "devops"
+      - "backend"
+
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/Codigo/supportplataform-service"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "ICEI-PUC-Minas-PPLES-TI/teams/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "devops"
+      - "backend"
