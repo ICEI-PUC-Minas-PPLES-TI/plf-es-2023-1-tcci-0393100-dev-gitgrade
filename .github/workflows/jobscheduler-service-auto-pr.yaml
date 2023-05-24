@@ -1,0 +1,24 @@
+name: JobScheduler Service Auto Pull Request
+
+on:
+  push:
+    branches:
+      - "feature/*"
+    paths:
+      - "Codigo/jobscheduler-service/**"
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: pull-request
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: "master"
+          pr_title: "Pulling ${{ github.ref }} into master" # Title of pull request
+          pr_template: ".github/PULL_REQUEST_TEMPLATE.md" # Path to pull request template, requires pr_title to be set, excludes pr_body
+          pr_reviewer: "guizombas"
+          pr_assignee: "Lucas-Angelo"
+          pr_label: "auto,backend"
+          pr_allow_empty: true

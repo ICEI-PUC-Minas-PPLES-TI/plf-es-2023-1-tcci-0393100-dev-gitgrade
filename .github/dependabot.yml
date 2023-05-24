@@ -8,6 +8,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "devops"
@@ -20,6 +21,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "backend"
@@ -32,6 +34,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "backend"
@@ -44,6 +47,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "frontend"
@@ -56,6 +60,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "devops"
@@ -69,6 +74,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "devops"
@@ -82,6 +88,7 @@ updates:
     reviewers:
       - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
     labels:
+      - "auto"
       - "dependency"
       - "technical debt"
       - "devops"
