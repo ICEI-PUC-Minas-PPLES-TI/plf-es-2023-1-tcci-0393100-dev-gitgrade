@@ -1,0 +1,53 @@
+{
+    "name": "supportplatform-service",
+    "version": "1.0.0",
+    "description": "SupportPlatform service for GitHub Project Evaluation Support Platform",
+    "author": "Lucas Ângelo Oliveira Martins Rocha (https://lucasangelo.com/)",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint:check": "npx eslint --ext .js ./",
+        "lint:fix": "npx eslint --fix --ext .js ./",
+        "test": "echo \"Running all tests\"",
+        "start": "node index.js",
+        "start:dev": "nodemon -L index.js"
+    },
+    "keywords": [
+        "nodejs",
+        "dotenv",
+        "editorconfig",
+        "mysql"
+    ],
+    "license": "CC-BY-4.0",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "mysql2": "^3.1.2",
+        "sequelize": "^6.29.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.35.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.8.4"
+    },
+    "homepage": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos",
+    "bugs": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos.git"
+    },
+    "contributors": [
+        {
+            "name": "Guilherme Gabriel Silva Pereira",
+            "email": "ggspereira@sga.pucminas.br",
+            "url": "https://github.com/guizombas"
+        },
+        {
+            "name": "Lucas Ângelo Oliveira Martins Rocha",
+            "email": "laomrocha@sga.pucminas.br",
+            "url": "https://lucasangelo.com/"
+        }
+    ]
+}

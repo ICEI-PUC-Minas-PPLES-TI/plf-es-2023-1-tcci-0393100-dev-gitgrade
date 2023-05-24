@@ -26,7 +26,7 @@ updates:
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
-    directory: "/Codigo/supportplataform-service"
+    directory: "/Codigo/supportplatform-service"
     schedule:
       interval: "daily"
     reviewers:
@@ -35,6 +35,18 @@ updates:
       - "dependency"
       - "technical debt"
       - "backend"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/Codigo/supportplatform-web"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "frontend"
 
   # Maintain dependencies for docker
   - package-ecosystem: "docker"
@@ -51,7 +63,7 @@ updates:
 
   # Maintain dependencies for docker
   - package-ecosystem: "docker"
-    directory: "/Codigo/supportplataform-service"
+    directory: "/Codigo/supportplatform-service"
     schedule:
       interval: "daily"
     reviewers:
@@ -61,3 +73,16 @@ updates:
       - "technical debt"
       - "devops"
       - "backend"
+
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/Codigo/supportplatform-web"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "ICEI-PUC-Minas-PPLES-TI/plataformaapoioavaliacoesprojetos"
+    labels:
+      - "dependency"
+      - "technical debt"
+      - "devops"
+      - "frontend"

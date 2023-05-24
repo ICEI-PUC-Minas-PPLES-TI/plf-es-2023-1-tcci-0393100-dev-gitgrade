@@ -1,14 +1,14 @@
-name: JobScheduler Lint
+name: SupportPlatform Web Lint
 
 on:
   pull_request:
     branches: [master]
     paths:
-      - "Codigo/jobscheduler-service/**"
+      - "Codigo/supportplatform-web/**"
 
 jobs:
   lint:
-    name: JobScheduler Lint | OS ${{ matrix.os }} - Node Version ${{ matrix.node-version }}
+    name: SupportPlatform Web Lint | OS ${{ matrix.os }} - Node Version ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -25,7 +25,7 @@ jobs:
       - uses: reviewdog/action-eslint@v1
         with:
           tool_name: eslint-github-pr-review
-          workdir: ./Codigo/jobscheduler-service
+          workdir: ./Codigo/supportplatform-web
           reporter: github-pr-review
           level: error
           github_token: ${{ github.token }}
