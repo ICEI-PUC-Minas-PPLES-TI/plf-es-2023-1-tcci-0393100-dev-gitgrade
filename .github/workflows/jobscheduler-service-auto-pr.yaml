@@ -22,3 +22,6 @@ jobs:
           pr_assignee: "Lucas-Angelo"
           pr_label: "auto,backend"
           pr_allow_empty: true
+
+  call-workflow-passing-data:
+    uses: ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos/.github/workflows/jobscheduler-service-lint.yaml@master
