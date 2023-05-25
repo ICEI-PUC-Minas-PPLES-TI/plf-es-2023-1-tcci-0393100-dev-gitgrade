@@ -24,4 +24,4 @@ jobs:
           pr_allow_empty: true
 
   call-workflow-passing-data:
-    uses: ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos/.github/workflows/supportplataform-web-lint.yaml@master
+    uses: ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos/.github/workflows/supportplatform-web-lint.yaml@master
