@@ -19,3 +19,5 @@ jobs:
 
       - name: Compress Images
         uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ github.token }}
