@@ -3,7 +3,7 @@ name: Auto PullRequest
 on:
   push:
     branches:
-      - "feature/*"
+      - "feature/**"
 
 jobs:
   pull-request:
