@@ -29,7 +29,7 @@
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "nodemon": "^2.0.20",
+        "nodemon": "^3.0.1",
         "prettier": "^2.8.4"
     },
     "homepage": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-tcci-0393100-dev-plataformaapoioavaliacoesprojetos",
