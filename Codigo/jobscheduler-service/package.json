@@ -64,7 +64,7 @@
         "@types/mysql": "^2.15.21",
         "@types/node": "^20.9.0",
         "@types/node-cron": "^3.0.8",
-        "@types/node-telegram-bot-api": "^0.61.6",
+        "@types/node-telegram-bot-api": "^0.63.1",
         "@types/sequelize": "^4.28.15",
         "@types/swagger-ui-express": "^4.1.5",
         "@types/umzug": "^2.3.6",
