@@ -1,5 +1,5 @@
 # Base image
-FROM node:18-buster
+FROM node:20-buster
 
 # Update and install dependencies
 RUN apt-get update && \
