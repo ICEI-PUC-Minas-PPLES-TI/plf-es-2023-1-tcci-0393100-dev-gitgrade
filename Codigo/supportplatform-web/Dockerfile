@@ -1,5 +1,5 @@
 # Base image
-FROM node:18-alpine3.17
+FROM node:21-alpine3.17
 
 # Update and install dependency
 RUN apk update && \
