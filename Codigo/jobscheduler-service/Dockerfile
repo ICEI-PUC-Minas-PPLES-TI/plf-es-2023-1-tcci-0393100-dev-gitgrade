@@ -1,4 +1,4 @@
-FROM node:18-alpine3.17
+FROM node:21-alpine3.17
 
 # create destination directory
 RUN mkdir -p /usr/src/gitgrade/jobscheduler_service
