@@ -236,7 +236,7 @@ jobs:
 
       - name: Comment PR with port details if OPENED, UPDATED or REOPENED
         if: github.event.action != 'closed'
-        uses: thollander/actions-comment-pull-request@v2
+        uses: thollander/actions-comment-pull-request@v3
         with:
           message: |
             Services were started with the following port details:
